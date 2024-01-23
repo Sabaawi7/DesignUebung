@@ -1,168 +1,155 @@
 {
     "name": "Root",
-    "children":[
-        {"name":"Wirtschaftsinformatik",
-         "size":256,
-         "children":[
-            {
-                "name":"Master",
-                "size": 170,
-                "children":[
-                    {
-                        "name":"Viz",
-                        "size":127,
-                        "children":[
-                            {
-                                "name":"Bestanden",
-                                "size":58,
-                                "value":24
-                            },
-                            {
-                                "name":"Nicht Bestanden",
-                                "size":69,
-                                "value":15
-                            }
-                        ]
-                    },
-                    {
-                        "name":"VA",
-                        "size":43,
-                        "children":[
-                            {
-                                "name":"Bestanden",
-                                "size":15,
-                                "value":37
-                            },
-                            {
-                                "name":"Nicht Bestanden",
-                                "size":28,
-                                "value":15
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name":"Bachelor",
-                "size":86,
-                "children":[
-                    {
-                        "name":"Viz",
-                        "size":71,
-                        "children":[
-                            {
-                                "name":"Bestanden",
-                                "size":19,
-                                "value":38
-                            },
-                            {
-                                "name":"Nicht Bestanden",
-                                "size":52,
-                                "value":15
-                            }
-                        ]
-                    },
-                    {
-                        "name":"VA",
-                        "size":15,
-                        "children":[
-                            {
-                                "name":"Bestanden",
-                                "size":4,
-                                "value":52
-                            },
-                            {
-                                "name":"Nicht Bestanden",
-                                "size":11,
-                                "value":15
-                            }
-                        ]
-                    }
-                ]
-            }
-         ]
-        },
+    "children": [
         {
-            "name": "(Wirtschafts-)Mathematik",
-            "size":100,
-            "children":[
+            "name": "Wirtschaftsinformatik",
+            "children": [
                 {
-                    "name":"Master",
-                    "size":71,
-                    "children":[
+                    "name": "Master",
+                    "children": [
                         {
-                            "name":"Viz",
-                            "size":53,
-                            "children":[
+                            "name": "Viz",
+                            "children": [
                                 {
-                                    "name":"Bestanden",
-                                    "size":18,
-                                    "value":24
+                                    "name": "Bestanden",
+                                    "value": 58,
+                                    "min": 24
                                 },
                                 {
-                                    "name":"Nicht Bestanden",
-                                    "size":35,
-                                    "value":15
+                                    "name": "Nicht Bestanden",
+                                    "value": 69,
+                                    "min": 15
                                 }
                             ]
                         },
                         {
-                            "name":"VA",
-                            "size":18,
-                            "children":[
+                            "name": "VA",
+                            "children": [
                                 {
-                                    "name":"Bestanden",
-                                    "size":5,
-                                    "value":46
+                                    "name": "Bestanden",
+                                    "value": 15,
+                                    "min": 37
                                 },
                                 {
-                                    "name":"Nicht Bestanden",
-                                    "size":13,
-                                    "value":15
+                                    "name": "Nicht Bestanden",
+                                    "value": 28,
+                                    "min": 15
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "name":"Bachelor",
-                    "size":29,
-                    "children":[
+                    "name": "Bachelor",
+                    "children": [
                         {
-                            "name":"Viz",
-                            "size":23,
-                            "children":[
+                            "name": "Viz",
+                            "children": [
                                 {
-                                    "name":"Bestanden",
-                                    "size":13,
-                                    "value":44
+                                    "name": "Bestanden",
+                                    "value": 19,
+                                    "min": 38
                                 },
                                 {
-                                    "name":"Nicht Bestanden",
-                                    "size":10,
-                                    "value":34
+                                    "name": "Nicht Bestanden",
+                                    "value": 52,
+                                    "min": 15
                                 }
                             ]
                         },
                         {
-                            "name":"VA",
-                            "size":6,
-                            "children":[
+                            "name": "VA",
+                            "children": [
                                 {
-                                    "name":"Bestanden",
-                                    "size":4,
-                                    "value":52
+                                    "name": "Bestanden",
+                                    "value": 4,
+                                    "min": 52
                                 },
                                 {
-                                    "name":"Nicht Bestanden",
-                                    "size":2,
-                                    "value":39
+                                    "name": "Nicht Bestanden",
+                                    "value": 11,
+                                    "min": 15
                                 }
                             ]
                         }
                     ]
                 }
-            ]    
+            ]
+        },
+        {
+            "name": "(Wirtschafts-)Mathematik",
+            "children": [
+                {
+                    "name": "Master",
+                    "children": [
+                        {
+                            "name": "Viz",
+                            "children": [
+                                {
+                                    "name": "Bestanden",
+                                    "value": 18,
+                                    "min": 24
+                                },
+                                {
+                                    "name": "Nicht Bestanden",
+                                    "value": 35,
+                                    "min": 15
+                                }
+                            ]
+                        },
+                        {
+                            "name": "VA",
+                            "children": [
+                                {
+                                    "name": "Bestanden",
+                                    "value": 5,
+                                    "min": 46
+                                },
+                                {
+                                    "name": "Nicht Bestanden",
+                                    "value": 13,
+                                    "min": 15
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Bachelor",
+                    "children": [
+                        {
+                            "name": "Viz",
+                            "children": [
+                                {
+                                    "name": "Bestanden",
+                                    "value": 13,
+                                    "min": 44
+                                },
+                                {
+                                    "name": "Nicht Bestanden",
+                                    "value": 10,
+                                    "min": 34
+                                }
+                            ]
+                        },
+                        {
+                            "name": "VA",
+                            "children": [
+                                {
+                                    "name": "Bestanden",
+                                    "value": 4,
+                                    "min": 52
+                                },
+                                {
+                                    "name": "Nicht Bestanden",
+                                    "value": 2,
+                                    "min": 39
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
